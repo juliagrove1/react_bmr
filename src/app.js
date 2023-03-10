@@ -45,4 +45,4 @@ function app() {
   )
 }
 
-export default App;
+export default app;
