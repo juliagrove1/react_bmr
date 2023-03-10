@@ -11,9 +11,6 @@ function App() {
 
   const handleSubmit=(e)=> {
     e.preventDefault();
-    const ages=e.target.age.value;
-    const cm=e.target.height.value;
-    const lb=e.target.weight.value;
     setBmr(Math.round(655+(4.35*weight)+(4.7*height)-(4.7*age)))
     setMBmr(Math.round(66 + (6.23*weight)+(12.7*height)-(6.8*age)))
   };
