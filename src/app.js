@@ -1,7 +1,7 @@
 import "./styles.css"
 import { useState } from 'react';
 
-function app() {
+function App() {
 
   const[age, setAge]=useState(null)
   const[height, setHeight]=useState(null)
@@ -45,4 +45,4 @@ function app() {
   )
 }
 
-export default app;
+export default App;
