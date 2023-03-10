@@ -1,7 +1,7 @@
 import "./styles.css"
 import { useState } from 'react';
 
-function App() {
+function app() {
 
   const[age, setAge]=useState(null)
   const[height, setHeight]=useState(null)
